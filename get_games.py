@@ -1,7 +1,7 @@
 import berserk
 import pandas as pd
 
-with open("toekn.txt", "r", encoding="utf-8") as f:
+with open("token.txt", "r", encoding="utf-8") as f:
     API_TOKEN = f.readlines()[0][:-1]
 
 session = berserk.TokenSession(API_TOKEN)
