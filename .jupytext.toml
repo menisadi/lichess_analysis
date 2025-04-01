@@ -1,0 +1,3 @@
+# .jupytext.toml
+formats = "ipynb,py:percent"
+default_notebook_metadata_filter = "jupytext.text_representation"
